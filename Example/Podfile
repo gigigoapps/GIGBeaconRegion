@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'GIGBeaconRegion', :exclusive => true do
+  pod "GIGBeaconRegion", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "GIGBeaconRegion", :path => "../"
+
+  
+end
