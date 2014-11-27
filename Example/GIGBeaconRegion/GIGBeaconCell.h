@@ -1,5 +1,5 @@
 //
-//  GIGAppDelegate.h
+//  GIGBeaconCell.h
 //  GIGBeaconRegion
 //
 //  Created by Alejandro Rupérez on 27/11/14.
@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GIGAppDelegate : UIResponder <UIApplicationDelegate>
+#import "GIGBeaconModel.h"
 
-@property (strong, nonatomic) UIWindow *window;
+
+@interface GIGBeaconCell : UITableViewCell
+
+- (void)setBeaconModel:(GIGBeaconModel *)beaconModel;
 
 @end

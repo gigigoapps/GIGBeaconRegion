@@ -2,12 +2,12 @@
 //  GIGViewController.h
 //  GIGBeaconRegion
 //
-//  Created by alexruperez on 11/27/2014.
-//  Copyright (c) 2014 alexruperez. All rights reserved.
+//  Created by Alejandro Rupérez on 27/11/14.
+//  Copyright (c) 2014 Gigigo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface GIGViewController : UIViewController
+@interface GIGViewController : UITableViewController
 
 @end

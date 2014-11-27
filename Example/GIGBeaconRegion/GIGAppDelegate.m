@@ -2,8 +2,8 @@
 //  GIGAppDelegate.m
 //  GIGBeaconRegion
 //
-//  Created by CocoaPods on 11/27/2014.
-//  Copyright (c) 2014 alexruperez. All rights reserved.
+//  Created by Alejandro Rupérez on 27/11/14.
+//  Copyright (c) 2014 Gigigo. All rights reserved.
 //
 
 #import "GIGAppDelegate.h"
@@ -13,6 +13,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
+    [application setIdleTimerDisabled:YES];
+
     return YES;
 }
 							

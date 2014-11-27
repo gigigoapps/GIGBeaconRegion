@@ -1,0 +1,14 @@
+PODS:
+  - GIGBeaconRegion (0.1.0)
+
+DEPENDENCIES:
+  - GIGBeaconRegion (from `../`)
+
+EXTERNAL SOURCES:
+  GIGBeaconRegion:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GIGBeaconRegion: 535e839a582d0455cb5739d6c616347b794c98b6
+
+COCOAPODS: 0.34.4
