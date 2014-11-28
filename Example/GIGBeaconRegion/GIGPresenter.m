@@ -12,6 +12,7 @@
 #import "GIGPresenter.h"
 
 #import "GIGStorage.h"
+#import "GIGErrorFactory.h"
 
 
 @interface GIGPresenter ()
@@ -98,7 +99,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager rangingBeaconsDidFailForRegion:(CLBeaconRegion *)region withError:(NSError *)error
 {
-    [[[UIAlertView alloc] initWithTitle:@"Error" message:error.localizedDescription delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
+    [[[UIAlertView alloc] initWithTitle:@"Error" message:[GIGErrorFactory errorWithUnderlyingError:error].localizedDescription delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
 }
 
 @end

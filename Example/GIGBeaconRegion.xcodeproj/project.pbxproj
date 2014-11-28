@@ -22,6 +22,7 @@
 		D55FD6B41A274354009BD47A /* GIGBeaconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D55FD6B31A274354009BD47A /* GIGBeaconModel.m */; };
 		D55FD6B71A2755CE009BD47A /* GIGBeaconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55FD6B61A2755CE009BD47A /* GIGBeaconCell.m */; };
 		D55FD6BA1A276B05009BD47A /* GIGStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D55FD6B91A276B05009BD47A /* GIGStorage.m */; };
+		D5E180141A28906A0012B16B /* GIGErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E180131A28906A0012B16B /* GIGErrorFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		D55FD6B61A2755CE009BD47A /* GIGBeaconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGBeaconCell.m; sourceTree = "<group>"; };
 		D55FD6B81A276B05009BD47A /* GIGStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGStorage.h; sourceTree = "<group>"; };
 		D55FD6B91A276B05009BD47A /* GIGStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGStorage.m; sourceTree = "<group>"; };
+		D5E180121A28906A0012B16B /* GIGErrorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGErrorFactory.h; sourceTree = "<group>"; };
+		D5E180131A28906A0012B16B /* GIGErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGErrorFactory.m; sourceTree = "<group>"; };
 		F57390B4D79FC6621D54A0C6 /* Pods-GIGBeaconRegion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIGBeaconRegion.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIGBeaconRegion/Pods-GIGBeaconRegion.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +130,8 @@
 				6003F59D195388D20070C39A /* GIGAppDelegate.m */,
 				D55FD6B81A276B05009BD47A /* GIGStorage.h */,
 				D55FD6B91A276B05009BD47A /* GIGStorage.m */,
+				D5E180121A28906A0012B16B /* GIGErrorFactory.h */,
+				D5E180131A28906A0012B16B /* GIGErrorFactory.m */,
 				D52DC7631A2736D000DA7E13 /* GIGPresenter.h */,
 				D52DC7641A2736D000DA7E13 /* GIGPresenter.m */,
 				D55FD6B21A274354009BD47A /* GIGBeaconModel.h */,
@@ -269,6 +274,7 @@
 				6003F59E195388D20070C39A /* GIGAppDelegate.m in Sources */,
 				D55FD6B71A2755CE009BD47A /* GIGBeaconCell.m in Sources */,
 				6003F5A7195388D20070C39A /* GIGViewController.m in Sources */,
+				D5E180141A28906A0012B16B /* GIGErrorFactory.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				D55FD6BA1A276B05009BD47A /* GIGStorage.m in Sources */,
 			);
@@ -392,6 +398,7 @@
 				GCC_PREFIX_HEADER = "GIGBeaconRegion/GIGBeaconRegion-Prefix.pch";
 				INFOPLIST_FILE = "GIGBeaconRegion/GIGBeaconRegion-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "64225c39-490d-4837-9088-1b87bb96d1a2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
